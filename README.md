@@ -1,2 +1,2 @@
-# resume
-resume html
+# RESUME
+resume html project
