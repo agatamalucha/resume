@@ -10,6 +10,11 @@
 
 }
 
+.bg-color-three-reasons {
+	background-color: #713841;
+	color:#fee9cf;
+}
+
 
 .ui-menu-color-home {
 	background-color:#e67e22;
@@ -116,6 +121,81 @@ header {
 }
 
 /*----------------hover.css*/
-.hvr-sweep-to-bottom {
-	
+.hvr-sweep-to-bottom : before {
+	background:rgba(0, 0, 0, 0.2);
+	height:100%;
+
+}
+
+
+
+/* section*/
+.section-column{ 
+	padding:0 30px 30px;
+	float:none;
+	display:table-cell; 
+}
+
+.row-table{
+	dispay:table;
+}
+
+.section-heading {
+	font-family:"exo", sans-serif;
+	font-weight: :300px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+/*footer*/
+
+h1, h2,h3,h4, 5=h5 {
+	margin: 0;
+}
+.uppercase { text transform: uppercase;
+  }
+.general-sub {
+	font-family: "exo", sans-serif;
+	font-weight: :300;
+	color: #fee9cf;
+}
+
+.inline-block: {
+	display:inline-block;
+}
+
+
+footer{
+	background-color: #713841;
+	color:#fee9cf;
+	min-height: 120px;
+	margin: 0;
+}
+
+footer .cv-pdf i {
+	color:#fee9cf;
+	text-align: center;
+	font-size: 18px;
+	padding-left: 5px;
+
+}
+
+.social-links{
+	padding-bottom: :15px;
+}
+.social-links li a i{
+	width: :32px;
+	height: :32px;
+	padding: 12px 0;
+	border-radius: 50%;
+	font-size: normal;
+	line-height: 7px;
+	text-align: center;
+	color:#fee9cf;
+	background-color: #713841;
+
+
+}
+#footer-details {
+	margin: 20px;
 }
